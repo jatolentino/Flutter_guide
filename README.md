@@ -1,16 +1,35 @@
-# flutter_guide
+# Flutter comprenssive guide
 
-A new Flutter project.
+### 1 Create a project & open VS code in that folder
+	```bash
+	flutter create flutter_guide
+	```
+	
+### 2 Copy the pubspec.yml file and run in the terminal
+	```bash
+	flutter packages get
+	```
+	
+### 3 Add the zoom level in VS
+- Create the folder .vscode and the file inside: settings.json
+	```json
+	{
+		"window.zoomLevel": 3
+	}
+	```
+	
+### 4 Edit /lib/main.dart
+- Create hello world
+    ```dart
+    import 'backage:flutter/material.dart';
 
-## Getting Started
+    void main() => runApp(MyApp());
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    class MyApp extends StatelessWidget {
+        @override
+        Widget build(BuildContext context) {
+            return MaterialApp(home: Text('Hello'),);
+        }
+    }
+    ```
+    Go to VS control menu, tab on Debug > Run without debugging
