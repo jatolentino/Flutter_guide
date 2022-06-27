@@ -232,7 +232,7 @@
 	    ]
 	}
 	```
-    To run, just select the Run and Dibug icon an pic the recently json option created with the name `All Devices`
+    To run, just select the Run and Dibug icon an pic the recently json option created with the name `All Devices` <br>
     Test 8.1 Compliled @ the branch of [`ver-1.0`](https://github.com/jatolentino/Flutter_guide/tree/ver1.0)
     <p align="center">
     	<img src="https://github.com/jatolentino/Flutter_guide/blob/master/img/step8-test-1.png" width="350">
