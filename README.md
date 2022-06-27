@@ -194,6 +194,45 @@
     ],
     )
     ```
+- Run on IOS and Androind devices
+	Click the Run and Dibug icon, then choose the option to Add Configuration, a file launch.json is created, delete the launch profile and add this (take in consideration that the devices should be stay opened and add the device ID to the json file).
+	```json
+	{
+	    "version": "0.2.0",
+	    "configurations": [
+		{
+		    "name": "flutter_guide",
+		    "request": "launch",
+		    "type": "dart"
+		},
+		{
+		    "name": "Android",
+		    "request": "launch",
+		    "type": "dart",
+		    "deviceId": "emulator-5554"
+		},
+		{
+		    "name": "iPhone12",
+		    "request": "launch",
+		    "type": "dart",
+		    "deviceId": "E0E30918-9823-4DD7-823F-BE99C99B1412"
+		},
+		{
+		    "name": "flutter_guide (release mode)",
+		    "request": "launch",
+		    "type": "dart",
+		    "flutterMode": "release"
+		}
+	    ],
+	    "compounds": [
+		{
+		    "name": "All Devices",
+		    "configurations": ["Android","iPhone12"]
+		}
+	    ]
+	}
+	```
+    To run, just select the Run and Dibug icon an pic the recently json option created with the name `All Devices`
     Test 8.1 Compliled @ the branch of [`ver-1.0`](https://github.com/jatolentino/Flutter_guide/tree/ver1.0)
     <p align="center">
     	<img src="https://github.com/jatolentino/Flutter_guide/blob/master/img/step8-test-1.png" width="350">
