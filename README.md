@@ -196,5 +196,5 @@
     ```
     Test 8.1 Compliled @ the branch of [`ver-1.0`](https://github.com/jatolentino/Flutter_guide/tree/ver1.0)
     <p align="center">
-    	<img src="https://github.com/jatolentino/Flutter_guide/blob/master/img/step8-test-1.png">
+    	<img src="https://github.com/jatolentino/Flutter_guide/blob/master/img/step8-test-1.png" width="200">
     </p>
