@@ -194,7 +194,7 @@
     ],
     )
     ```
-- Run on IOS and Androind devices
+- Run on IOS and Android devices
 	Click the Run and Dibug icon, then choose the option to Add Configuration, a file launch.json is created, delete the launch profile and add this (take in consideration that the devices should be stay opened and add the device ID to the json file).
 	```json
 	{
