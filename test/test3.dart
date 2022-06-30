@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
 		return Scaffold(
 			backgroundColor: color.AppColor.homePageBackground,
 			body: Container(
-				padding: const EdgeInsets.only(top:40, left:30, right:30),
+				padding: const EdgeInsets.only(top:70, left:30, right:30),
 				child: Column(
 					children: [
 						Row(
@@ -163,124 +163,26 @@ class _HomePageState extends State<HomePage> {
                 ),
               )
             ),
-            SizedBox(height: 5,),
-            Container(
-              height: 180,
-              width: MediaQuery.of(context).size.width,
-              child: Stack(
-                children: [
-                  Container(
-                    width: MediaQuery.of(context).size.width,
-                    margin: const EdgeInsets.only(top:30),
-                    height: 120,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      image: DecorationImage(
-                        image:AssetImage(
-                          "assets/card.jpg"
-                        ),
-                        fit:BoxFit.fill
-                      ),
-                      boxShadow: [
-                        BoxShadow(
-                          blurRadius: 40,
-                          offset:Offset(8,10),
-                          color: color.AppColor.gradientSecond.withOpacity(0.3)
-                        ),
-                        BoxShadow(
-                          blurRadius: 40,
-                          offset:Offset(-1,-5),
-                          color: color.AppColor.gradientSecond.withOpacity(0.3)
-                        ),
-                      ]
-                    ),
-                  ),
-                  Container(
-                    height: 200,
-                    width: MediaQuery.of(context).size.width,
-                    //width: 320, //changes red box containing figure.png
-                    margin: const EdgeInsets.only(right: 200, bottom: 30), //also reduce red box by adding margin
-                    decoration: BoxDecoration(
-                      //color:Colors.redAccent.withOpacity(0.2),
-                      borderRadius: BorderRadius.circular(20),
-                      image: DecorationImage(
-                        image:AssetImage(
-                          "assets/figure.png"
-                        ),
-                        fit:BoxFit.fill
-                      ),
-                      //boxShadow: 
-                    ),
-                  ),
-                  Container(
-                    width: double.maxFinite,
-                    height: 100,
-                    //color:Colors.redAccent.withOpacity(0.3),
-                    margin: const EdgeInsets.only(left:150,top:50),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "Your are doing great",
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            color:color.AppColor.homePageDetail
-                          ),
-                        ),
-                        SizedBox(height: 10,),
-                        RichText(text: TextSpan(
-                          text:"Keep it up\n",
-                          style: TextStyle(
-                            color:color.AppColor.homePagePlanColor,
-                            fontSize: 16,
-                          ),
-                          children: [
-                            TextSpan(
-                              text:"stick to your plan"
-                            )
-                          ]
-                        ))
-                      ]
-                    )
-                  ),
-                ],
-              ),
-            ),
-            Row(
-              children: [
-                Text(
-                  "Area of focus",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 25,
-                    fontWeight: FontWeight.w500,
-                    color:color.AppColor.homePageTitle
-                  ),
-                )
-              ],
-            ),
-            Expanded(child: ListView.builder(
-              itemCount: 4,
-              itemBuilder: (_, i){
-                return Row(
-                  children: [
-                    Container(
-                      width: 200,
-                      height: 170,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15),
-                        image: DecorationImage(
-                          image: AssetImage(
-                            "assets/ex1.png"
-                          )
-                        )
-                      ),
-                    )
-                  ]
-                );
-              })
-            )
+            // Container(
+            //   height: 180,
+            //   width: MediaQuery.of(context).size.width,
+            //   child: Stack(
+            //     children: [
+            //       Container(
+            //         width: MediaQuery.of(context).size.width,
+            //         height: 120,
+            //         decoration: BoxDecoration(
+            //           borderRadius: BorderRadius.circular(20),
+            //           image: DecorationImage(
+            //             image:AssetImage(
+            //               "assets/card.jpg"
+            //             )
+            //           )
+            //         ),
+            //       )
+            //     ],
+            //   ),
+            // )
           ],
 				),
 			),
