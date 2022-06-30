@@ -620,7 +620,7 @@
     }
     ```
     
-    Test 9.1 Compliled @ the branch of [`ver-1.1`](https://github.com/jatolentino/Flutter_guide/blob/master/img/step9-test-1.png)
+    Test 9.1 Compliled @ the branch of [`ver-1.1`](https://github.com/jatolentino/Flutter_guide/tree/ver1.1)
     <p align="center">
-    	<img src="https://github.com/jatolentino/Flutter_guide/blob/master/img/step1-test-1.png" width="200">
+    	<img src="https://github.com/jatolentino/Flutter_guide/blob/ver1.1/img/step9-test-1.png" width="200">
     </p>
