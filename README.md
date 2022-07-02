@@ -1,5 +1,6 @@
 # Flutter comprenssive guide
 
+
 ### 1 Create a project & open VS code in that folder
 	```bash
 	flutter create flutter_guide
