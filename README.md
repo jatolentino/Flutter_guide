@@ -278,7 +278,8 @@
     )
     ```
 - Run on IOS and Android devices
-	Click the Run and Debug icon, then choose the option to Add Configuration, choose Flutter debugger, then a file launch.json is created, delete the launch profile and add this (take in consideration that the devices should be stay opened and add the device ID to the json file).
+	Click the Run and Debug icon, then choose the option to Add Configuration, choose Flutter debugger, then a file launch.json is created, delete the launch profile and add this (take in consideration that the devices should be stay opened and add the device ID to the json file). <br>
+	Open the iphone simulator via VSCODE with `open -a simulator`. To identify each simulator, run `flutter devices`, add the ID in the following JSON file.
 	```json
 	{
 	    "version": "0.2.0",
