@@ -278,7 +278,7 @@
     )
     ```
 - Run on IOS and Android devices
-	Click the Run and Dibug icon, then choose the option to Add Configuration, a file launch.json is created, delete the launch profile and add this (take in consideration that the devices should be stay opened and add the device ID to the json file).
+	Click the Run and Debug icon, then choose the option to Add Configuration, a file launch.json is created, delete the launch profile and add this (take in consideration that the devices should be stay opened and add the device ID to the json file).
 	```json
 	{
 	    "version": "0.2.0",
@@ -315,7 +315,7 @@
 	    ]
 	}
 	```
-    To run, just select the Run and Dibug icon an pic the recently json option created with the name `All Devices` <br>
+    To run, just select the Run and Debug icon an pic the recently json option created with the name `All Devices` <br>
     Test 8.1 Compliled @ the branch of [`ver-1.0`](https://github.com/jatolentino/Flutter_guide/tree/ver1.0)
     <p align="center">
     	<img src="https://github.com/jatolentino/Flutter_guide/blob/master/img/step8-test-1.png" width="450">
